@@ -65,12 +65,21 @@ To run the data analysis notebook:
    source .venv/bin/activate
    ```
 
-2. Start the Jupyter notebook server:
+2. Set up Jupyter password (first time only):
+   ```bash
+   python -c "from jupyter_server.auth import passwd; print(passwd())"
+   ```
+   - Enter and verify your password when prompted
+   - Copy the generated hash
+   - Create Jupyter config: `mkdir -p ~/.jupyter`
+   - Add to config: `echo "c.ServerApp.password = 'YOUR_HASH'" > ~/.jupyter/jupyter_server_config.py`
+
+3. Start the Jupyter notebook server:
    ```bash
    jupyter notebook notebooks/analysis/telecom_data_analysis.ipynb
    ```
 
-3. The notebook will open in your default browser. If it doesn't, copy and paste the URL provided in the terminal.
+4. The notebook will open in your default browser. If it doesn't, copy and paste the URL provided in the terminal.
 
 ### Data Management
 
