@@ -1,0 +1,7 @@
+customer_id,timestamp,service_type,data_usage_mb,voice_minutes,sms_count,network_quality_score,customer_satisfaction_score
+CUST_001,2024-03-20T00:00:00,mobile,256.5,45.2,12,4.2,4.5
+CUST_002,2024-03-20T00:00:00,mobile,189.3,32.1,8,3.8,4.0
+CUST_003,2024-03-20T00:00:00,business,512.7,120.5,25,4.5,4.8
+CUST_001,2024-03-20T01:00:00,mobile,312.8,52.3,15,4.3,4.6
+CUST_002,2024-03-20T01:00:00,mobile,201.5,35.6,9,3.9,4.1
+CUST_003,2024-03-20T01:00:00,business,498.2,115.8,23,4.4,4.7 

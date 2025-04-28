@@ -1,0 +1,7 @@
+call_id,timestamp,caller_id,callee_id,call_duration_seconds,call_type,cell_id,roaming_status,data_used_mb
+CDR_001,2024-03-20T00:00:00,CUST_001,CUST_002,120,voice,CELL_001,domestic,0.0
+CDR_002,2024-03-20T00:00:00,CUST_002,CUST_003,85,voice,CELL_002,domestic,0.0
+CDR_003,2024-03-20T00:00:00,CUST_003,CUST_001,45,data,CELL_003,domestic,156.7
+CDR_004,2024-03-20T00:01:00,CUST_001,CUST_003,95,voice,CELL_001,domestic,0.0
+CDR_005,2024-03-20T00:01:00,CUST_002,CUST_001,60,voice,CELL_002,domestic,0.0
+CDR_006,2024-03-20T00:01:00,CUST_003,CUST_002,30,data,CELL_003,domestic,89.3 
