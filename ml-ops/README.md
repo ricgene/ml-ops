@@ -56,6 +56,22 @@ This project uses Python 3.11. To set up the development environment:
    pip install -e .
    ```
 
+### Running Jupyter Notebooks
+
+To run the data analysis notebook:
+
+1. Make sure the virtual environment is activated:
+   ```bash
+   source .venv/bin/activate
+   ```
+
+2. Start the Jupyter notebook server:
+   ```bash
+   jupyter notebook notebooks/analysis/telecom_data_analysis.ipynb
+   ```
+
+3. The notebook will open in your default browser. If it doesn't, copy and paste the URL provided in the terminal.
+
 ### Data Management
 
 - Sample data is provided in `data/raw/sample_data/` for development and testing
